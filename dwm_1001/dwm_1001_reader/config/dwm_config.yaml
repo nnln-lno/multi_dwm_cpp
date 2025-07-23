@@ -1,0 +1,16 @@
+dwm_1001_params: 
+  ros__parameters:
+    dwm_comm_params:
+      use_port: True
+      port: "/dev/ttyACM0"
+      baudrate: 115200
+      device_id: "123:123"
+      rate_hz: 10
+    publisher:
+      topic_name: "dwm1001c"      
+    serial_message:
+      header: ""
+      footer: ""
+      packet_size: 0      
+      is_single: False
+      is_continuous: True
